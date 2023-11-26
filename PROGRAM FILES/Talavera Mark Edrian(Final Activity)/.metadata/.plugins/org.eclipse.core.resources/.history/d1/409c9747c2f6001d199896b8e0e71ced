@@ -1,0 +1,122 @@
+package loginInvents;
+
+import javax.swing.*;
+import java.awt.*;
+
+
+
+import javax.swing.*;
+import java.awt.*;
+
+public class ReceiptDialogExample {
+    public static void main(String[] args) {
+    	
+    	JTextField emz=new JTextField();    	
+    	JFrame frame =new JFrame();
+    	 
+    	frame.setSize(400,400);
+    	frame.setLocationRelativeTo(null);
+    	frame.setVisible(true);
+    	frame.setLayout(null);
+    	
+    	Public frame(){
+    		
+    	}
+    	
+        SwingUtilities.invokeLater(() -> {
+            // Create a JDialog
+            JDialog dialog = new JDialog();
+            dialog.setTitle("Receipt");
+            dialog.setSize(300, 200);
+           
+            // Create a JTextArea
+            JTextArea receiptTextArea = new JTextArea();
+            receiptTextArea.setEditable(false);
+
+            // Create a JScrollPane with vertical scrollbar
+            JScrollPane scrollPane = new JScrollPane(receiptTextArea);
+            scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+
+            // Add the JScrollPane to the JDialog's content pane
+            dialog.getContentPane().add(scrollPane);
+
+            // Set the receipt content
+            StringBuilder receiptContent = new StringBuilder();
+            receiptContent.append("Item 1: $10\n");
+            receiptContent.append("Item 2: $15\n");
+            receiptContent.append("Item 3: $20\n");
+            receiptContent.append("Item 4: $25\n");
+            receiptContent.append("Item 5: $30\n");
+            receiptContent.append("Item 6: $35\n");
+            receiptContent.append("Item 7: $40\n");
+            receiptContent.append("Item 8: $45\n");
+            receiptContent.append("Item 9: $50\n");
+            receiptContent.append("Item 10: $55\n");
+
+            // Set the receipt content in the JTextArea
+            receiptTextArea.setText(receiptContent.toString());
+
+            // Make the dialog visible
+            dialog.setVisible(true);
+        });
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*public class ScrollbarExample {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            // Create a JDialog
+            JDialog dialog = new JDialog();
+            dialog.setTitle("Vertical Scrollable Dialog");
+            dialog.setSize(300, 200);
+         //   dialog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+            // Create a JTextArea
+            JTextArea textArea = new JTextArea();
+
+            // Create a JScrollPane with vertical scrollbar only
+            JScrollPane scrollPane = new JScrollPane(textArea);
+            scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+            scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+            // Add the JScrollPane to the JDialog's content pane
+            dialog.getContentPane().add(scrollPane);
+
+            // Make the dialog visible
+            dialog.setVisible(true);
+        });
+    }
+}*/

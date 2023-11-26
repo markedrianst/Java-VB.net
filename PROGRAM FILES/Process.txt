@@ -1,0 +1,35 @@
+ Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+     If ComboBox1.SelectedIndex = -1 OrElse ComboBox2.SelectedIndex = -1 Then
+         MessageBox.Show("Plese Select  Car Brand and Car Model ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+     Else
+         Dim myForm2 As New Form2()
+         Dim img1 As Image = PictureBox1.Image
+         Dim img As Image = PictureBox2.Image
+         myForm2.PictureBox1.Image = img
+         myForm2.PictureBox2.Image = img1
+         myForm2.TextBox1.Text = Prc.Text
+         myForm2.TextBox3.Text = AI.Text
+         myForm2.An.Text = Label6.Text
+         myForm2.TextBox7.Text = ComboBox1.SelectedItem
+         myForm2.TextBox6.Text = ComboBox2.SelectedItem
+         myForm2.Show()
+         Me.Hide()
+     End If
+ End Sub
+
+
+
+F2
+ If String.IsNullOrEmpty(TextBox2.Text) Then
+     MessageBox.Show("Please fill the Year(s) to Pay To Process your transaction! ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+ Else
+     Dim total As Double = 0
+     Dim tots As Double = 0
+     total = TextBox1.Text * An.Text
+     tots = TextBox2.Text * 12
+     total = total + TextBox1.Text
+     TextBox5.Text = Format(total, "#,##.##")
+     total = total / tots
+     TextBox4.Text = Format(total, "#,##.##")
+     MessageBox.Show("You have successfully purchased ,Congratulations!!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+ End If

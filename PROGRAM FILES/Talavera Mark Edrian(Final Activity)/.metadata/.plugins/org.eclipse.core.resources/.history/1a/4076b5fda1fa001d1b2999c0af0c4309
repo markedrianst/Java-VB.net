@@ -1,0 +1,43 @@
+package loginInvents;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class InventoryConnectionExample extends JFrame {
+    private JTextField inventory1TextField;
+    private JTextField inventory2TextField;
+
+    public InventoryConnectionExample() {
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setTitle("Inventory Connection Example");
+        setSize(300, 200);
+        setLayout(new FlowLayout());
+
+        // Create the text fields for the inventories
+        inventory1TextField = new JTextField(10);
+        inventory2TextField = new JTextField(10);
+
+        // Add a listener to inventory1TextField
+        inventory1TextField.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // When inventory1TextField is updated, update inventory2TextField
+                String inventory1Value = inventory1TextField.getText();
+                inventory2TextField.setText(inventory1Value);
+            }
+        });
+
+        // Add the text fields to the JFrame
+        add(new JLabel("Inventory 1:"));
+        add(inventory1TextField);
+        add(new JLabel("Inventory 2:"));
+        add(inventory2TextField);
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                new InventoryConnectionExample().setVisible(true);
+            }
+        });
+    }
+}

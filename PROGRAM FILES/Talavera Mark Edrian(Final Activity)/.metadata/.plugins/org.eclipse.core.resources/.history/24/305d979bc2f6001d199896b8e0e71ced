@@ -1,0 +1,14 @@
+package loginInvents;
+
+import javax.swing.*;
+
+public class trys extends JFrame {
+	
+		trys(){
+			this.setSize(400,400);
+			this.setResizable(false);
+			this.setVisible(true);
+			this.setLocationRelativeTo(null);
+			this.setLayout(null);
+		}
+}

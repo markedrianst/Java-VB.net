@@ -1,0 +1,28 @@
+package LOGIN_UI;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
+import javax.swing.BorderFactory;
+import javax.swing.JFrame;
+
+public class samp extends JFrame{
+	Toolkit toolkit = getToolkit();
+	Dimension size = toolkit.getScreenSize();
+	JFrame frame =new JFrame();
+	
+	samp(){
+		frame.setSize(410,440);
+		frame.setLocation(size.width/2 - getWidth()/2, size.height/2 - getHeight()/2);
+		frame.setTitle("LOGIN/REGISTER");
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//setIconImage(icon.getImage());
+		//frame.getContentPane().setBackground(Color.decode("#205072"));
+		frame.setResizable(false);
+		frame.setBackground(new Color(50,100,150,60));
+		
+		this.setVisible(true);
+	}
+
+}

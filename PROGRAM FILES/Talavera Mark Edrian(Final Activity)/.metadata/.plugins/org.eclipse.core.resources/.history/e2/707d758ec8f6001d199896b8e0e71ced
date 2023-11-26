@@ -1,0 +1,123 @@
+package loginInvents;
+packa
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
+import java.util.Vector;
+
+public class TablePassingExample {
+    public static void main(String[] args) {
+        // Create a table in the main class
+        JTable table = createTable();
+
+        // Create an instance of the receiving class
+        ReceivingClass receivingClass = new ReceivingClass();
+
+        // Pass the table to the receiving class
+        receivingClass.displayTable(table);
+    }
+
+    private static JTable createTable() {
+        // Create sample data
+        Vector<Vector<String>> data = new Vector<>();
+        Vector<String> row1 = new Vector<>();
+        row1.add("John");
+        row1.add("Doe");
+        row1.add("25");
+        data.add(row1);
+        Vector<String> row2 = new Vector<>();
+        row2.add("Jane");
+        row2.add("Smith");
+        row2.add("30");
+        data.add(row2);
+
+        // Create column names
+        Vector<String> columnNames = new Vector<>();
+        columnNames.add("First Name");
+        columnNames.add("Last Name");
+        columnNames.add("Age");
+
+        // Create the table model
+        DefaultTableModel model = new DefaultTableModel(data, columnNames);
+
+        // Create the table
+        JTable table = new JTable(model);
+
+        return table;
+    }
+}
+
+class ReceivingClass {
+    public void displayTable(JTable table) {
+        // Create a dialog to display the table
+        JDialog dialog = new JDialog();
+        dialog.setTitle("Table Display");
+        dialog.setSize(400, 300);
+        dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+
+        // Add the table to the dialog's content pane
+        dialog.getContentPane().add(new JScrollPane(table));
+
+        // Set the dialog to be visible
+        dialog.setVisible(true);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*public class ScrollbarExample {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            // Create a JDialog
+            JDialog dialog = new JDialog();
+            dialog.setTitle("Vertical Scrollable Dialog");
+            dialog.setSize(300, 200);
+         //   dialog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+            // Create a JTextArea
+            JTextArea textArea = new JTextArea();
+
+            // Create a JScrollPane with vertical scrollbar only
+            JScrollPane scrollPane = new JScrollPane(textArea);
+            scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+            scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
+            // Add the JScrollPane to the JDialog's content pane
+            dialog.getContentPane().add(scrollPane);
+
+            // Make the dialog visible
+            dialog.setVisible(true);
+        });
+    }
+}*/

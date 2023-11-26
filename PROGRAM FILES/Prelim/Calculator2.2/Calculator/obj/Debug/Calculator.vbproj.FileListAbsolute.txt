@@ -1,0 +1,48 @@
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\bin\Debug\Calculator.xml
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\obj\Debug\Calculator.vbproj.AssemblyReference.cache
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\obj\Debug\Calculator.Resources.resources
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.cache
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\obj\Debug\Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\obj\Debug\Calculator.xml
+C:\Users\PC\Desktop\Mallari, Lanz justin\sir jan\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\PC\Downloads\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\PC\Downloads\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\PC\Downloads\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\PC\Downloads\Calculator\Calculator\bin\Debug\Calculator.xml
+C:\Users\PC\Downloads\Calculator\Calculator\obj\Debug\Calculator.vbproj.AssemblyReference.cache
+C:\Users\PC\Downloads\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\PC\Downloads\Calculator\Calculator\obj\Debug\Calculator.Resources.resources
+C:\Users\PC\Downloads\Calculator\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.cache
+C:\Users\PC\Downloads\Calculator\Calculator\obj\Debug\Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\PC\Downloads\Calculator\Calculator\obj\Debug\Calculator.xml
+C:\Users\PC\Downloads\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\bin\Debug\Calculator.exe
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\bin\Debug\Calculator.pdb
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\bin\Debug\Calculator.xml
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\obj\Debug\Calculator.vbproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\obj\Debug\Calculator.Resources.resources
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\obj\Debug\Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\obj\Debug\Calculator.exe
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\obj\Debug\Calculator.xml
+C:\Users\ADMIN\Desktop\Calculatorr\Calculator\obj\Debug\Calculator.pdb
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\bin\Debug\Calculator.exe
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\bin\Debug\Calculator.xml
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\obj\Debug\Calculator.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\obj\Debug\Calculator.Resources.resources
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\obj\Debug\Calculator.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\obj\Debug\Calculator.exe
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\obj\Debug\Calculator.xml
+C:\Users\Talavera\Desktop\Prelim\Calculatorr\Calculator\obj\Debug\Calculator.pdb

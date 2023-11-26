@@ -1,0 +1,65 @@
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\bin\Debug\LRT.exe.config
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\bin\Debug\LRT.exe
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\bin\Debug\LRT.pdb
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\bin\Debug\LRT.xml
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\obj\Debug\LRT.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\obj\Debug\LRT.Form1.resources
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\obj\Debug\LRT.Resources.resources
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\obj\Debug\LRT.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\obj\Debug\LRT.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\obj\Debug\LRT.exe
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\obj\Debug\LRT.xml
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\obj\Debug\LRT.pdb
+C:\Users\Talavera\Desktop\Midterms 2A\LRT\LRT\obj\Debug\LRT.Form2.resources
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\bin\Debug\LRT.exe.config
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\bin\Debug\LRT.exe
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\bin\Debug\LRT.pdb
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\bin\Debug\LRT.xml
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\obj\Debug\LRT.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\obj\Debug\LRT.Form1.resources
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\obj\Debug\LRT.Resources.resources
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\obj\Debug\LRT.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\obj\Debug\LRT.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\obj\Debug\LRT.exe
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\obj\Debug\LRT.xml
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\obj\Debug\LRT.pdb
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\bin\Debug\LRT.exe.config
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\bin\Debug\LRT.exe
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\bin\Debug\LRT.pdb
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\bin\Debug\LRT.xml
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\obj\Debug\LRT.vbproj.AssemblyReference.cache
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\obj\Debug\LRT.Form1.resources
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\obj\Debug\LRT.Resources.resources
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\obj\Debug\LRT.vbproj.GenerateResource.cache
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\obj\Debug\LRT.vbproj.CoreCompileInputs.cache
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\obj\Debug\LRT.exe
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\obj\Debug\LRT.xml
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\obj\Debug\LRT.pdb
+C:\Users\czari\OneDrive\Desktop\l\LRT1\LRT\obj\Debug\LRT.Form2.resources
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\obj\Debug\LRT.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\obj\Debug\LRT.Form1.resources
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\obj\Debug\LRT.Form2.resources
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\obj\Debug\LRT.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\obj\Debug\LRT.exe
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\obj\Debug\LRT.xml
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\obj\Debug\LRT.pdb
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\bin\Debug\LRT.exe.config
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\bin\Debug\LRT.exe
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\bin\Debug\LRT.pdb
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\bin\Debug\LRT.xml
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\obj\Debug\LRT.Resources.resources
+C:\Users\Talavera\Desktop\LRT1 (1)\LRT\obj\Debug\LRT.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\bin\Debug\LRT.exe.config
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\bin\Debug\LRT.exe
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\bin\Debug\LRT.pdb
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\bin\Debug\LRT.xml
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\obj\Debug\LRT.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\obj\Debug\LRT.Form1.resources
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\obj\Debug\LRT.Form2.resources
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\obj\Debug\LRT.Resources.resources
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\obj\Debug\LRT.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\obj\Debug\LRT.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\obj\Debug\LRT.exe
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\obj\Debug\LRT.xml
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1 (1)\LRT\obj\Debug\LRT.pdb
+C:\Users\Talavera\Desktop\Midterms 2A\LRT1\LRT\obj\Debug\LRT.Form2.resources

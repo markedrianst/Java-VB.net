@@ -1,0 +1,25 @@
+package loginInvents;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+
+public class CloseLabelOptionPaneExample {
+    public static void main(String[] args) {
+        // Create a custom label with a mouse listener
+        JLabel label = new JLabel("Click to close");
+        label.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                // Close the associated dialog or window
+                Component component = (Component) e.getSource();
+                Window window = SwingUtilities.getWindowAncestor(component);
+                window.dispose();
+                JOptionPane.showMessageDialog(null, label);
+            }
+        });
+
+        // Show the option pane with the custom label
+        JOptionPane.showMessageDialog(null, label);
+    }
+}

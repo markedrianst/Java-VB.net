@@ -1,0 +1,109 @@
+package LoginInventoryPos;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+
+import javax.swing.*;
+
+
+@SuppressWarnings("serial")
+public class Dashboard extends JFrame {
+	
+			JButton inv =new JButton ();
+			JButton pos =new JButton ();
+	
+			ImageIcon imageIcon = new ImageIcon("inventoryicon.png");
+	        Image image = imageIcon.getImage().getScaledInstance(150, 150, Image.SCALE_SMOOTH);
+	        ImageIcon scaledImageIcon = new ImageIcon(image);
+	        
+	        ImageIcon imageIcon1 = new ImageIcon("saleicon.png");
+	        Image image1 = imageIcon1.getImage().getScaledInstance(150, 120, Image.SCALE_SMOOTH);
+	        ImageIcon scaledImageIcon1 = new ImageIcon(image1);
+	        
+	        ImageIcon img = new ImageIcon(new ImageIcon("bgdash1.jpg").getImage().getScaledInstance(400, 300, Image.SCALE_SMOOTH));
+	    	JLabel background = new JLabel("", img, JLabel.CENTER);
+	    	
+	    	ImageIcon img2 = new ImageIcon(new ImageIcon("left-arrow.png").getImage().getScaledInstance(30, 30, Image.SCALE_SMOOTH));
+	    	JLabel back = new JLabel("", img2, JLabel.CENTER);
+	    	
+	    	JLabel [] saleinvents =new JLabel[2];
+	    	String[] labels = {"Inventory","Pont of Sales"};
+	    	
+	    
+	    	JLabel dash =new JLabel("DashBoard", JLabel.CENTER);
+
+	    
+	public void Dashboard(){
+		
+	    this.setUndecorated(true);
+		this.setTitle("Select ");
+		this.setSize(400,280);
+		this.getContentPane().setBackground(Color.decode("#205072"));
+		this.setLocationRelativeTo(null);
+		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		this.setResizable(false);
+		
+		
+		dash.setBounds(0,10,400,40);
+		dash.setFont(new Font("Cambria", Font.BOLD, 30));
+		dash.setForeground(Color.GRAY);	
+	
+		background.setBounds(0,0,400,300);
+
+		int y =60;
+		for(int i = 0; i <= saleinvents.length-1 ; i++) {
+			saleinvents[i] = new JLabel();
+			saleinvents[i].setText(labels[i]);
+			saleinvents[i].setBounds(y, 40, 150, 25);
+			saleinvents[i].setFont(new Font("Cambria", Font.BOLD, 20));
+			saleinvents[i].setForeground(Color.GRAY);
+			this.add(saleinvents[i]);
+			y += 170;
+		}
+		inv.setBounds(30,60 , 160, 170);
+		inv.setFocusable(false);
+		inv.setOpaque(false);
+		inv.setBorder(BorderFactory.createMatteBorder(3,3,3,3,Color.GRAY));
+		inv.setBackground(Color.WHITE);
+		inv.setIcon( scaledImageIcon);
+		inv.addActionListener(new ActionListener (){
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				Inventory sub =new Inventory();
+		            sub.Inventory();
+		        	dispose();
+				  }});
+		
+		pos.setBounds(200,60 , 160, 170);
+		pos.setFocusable(false);
+		pos.setOpaque(false);
+		pos.setBorder(BorderFactory.createMatteBorder(3,3,3,3,Color.GRAY));
+		pos.setBackground(Color.WHITE);
+		pos.setIcon( scaledImageIcon);
+		pos.setIcon( scaledImageIcon1);	
+		pos.addActionListener(new ActionListener (){
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				Point_Of_Sales sub =new Point_Of_Sales();
+		            sub.Point_Of_Sales();
+		            dispose();
+				  }});
+		
+		this.add(dash);
+		this.add(inv);
+		this.add(pos);
+		this.add(background);
+		this.setLayout(null);
+		this.setVisible(true);
+	}
+	
+
+}

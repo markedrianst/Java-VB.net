@@ -1,0 +1,42 @@
+package inventory;
+
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Image;
+import java.awt.*;
+import javax.swing.*;
+
+public class loginFrame extends JFrame {
+	
+	JFrame frame = new JFrame();
+	ImageIcon img = new ImageIcon(new ImageIcon("inv2.jpg").getImage().getScaledInstance(400, 250, Image.SCALE_SMOOTH));
+	JLabel background = new JLabel("", img, JLabel.CENTER);
+	ImageIcon img1 = new ImageIcon(new ImageIcon("inv1.jpg").getImage().getScaledInstance(100, 100, Image.SCALE_SMOOTH));
+	JLabel bg = new JLabel("", img1, JLabel.CENTER);
+	JLabel uname = new JLabel("USERNAME:");
+	JLabel pword = new JLabel("PASSWORD:");
+
+
+loginFrame(){
+	
+	this.setSize(400, 250);
+	this.setTitle("Login");
+	this.setResizable(false);
+	this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	this.setLocationRelativeTo(null);
+	
+	uname.setBounds(50, 70, 100, 30);
+	uname.setFont(new Font("Cooper Black", Font.PLAIN, 14));
+	uname.setForeground(Color.BLACK);
+	
+	bg.setBounds(140, 0, 100, 100);
+	background.setBounds(0, 0, 400, 250);
+	
+	this.add(uname);
+	this.add(bg);
+	this.add(background);
+	this.setLayout(null);
+	this.setVisible(true);
+	
+}
+}

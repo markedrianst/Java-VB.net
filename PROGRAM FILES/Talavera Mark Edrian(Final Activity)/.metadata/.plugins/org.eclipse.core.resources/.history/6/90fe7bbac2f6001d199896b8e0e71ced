@@ -1,0 +1,32 @@
+package loginInvents;
+
+import javax.swing.*;
+
+public class trys extends JFrame {
+		 
+			JButton btn =new JButton();
+			JTextField txt =new JTextField();
+			
+		trys(){
+			this.setSize(400,400);
+			this.setResizable(false);
+			
+			
+
+			btn.setBounds(100,200,50,50);
+			txt.setBounds(100,100,50,50);
+			
+			
+			
+			
+			
+			
+			
+			
+			this.add(btn);
+			this.add(txt);
+			this.setVisible(true);
+			this.setLocationRelativeTo(null);
+			this.setLayout(null);
+		}
+}

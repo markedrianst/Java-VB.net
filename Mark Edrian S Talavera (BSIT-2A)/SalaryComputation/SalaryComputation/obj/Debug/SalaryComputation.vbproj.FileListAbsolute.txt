@@ -1,0 +1,36 @@
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.exe.config
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.exe
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.pdb
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.xml
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.Form1.resources
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.Resources.resources
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.exe
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.xml
+C:\Users\Talavera\Desktop\Talavera Mark Edrian S. Loan computation\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.pdb
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.vbproj.AssemblyReference.cache
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.Form1.resources
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.Resources.resources
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.vbproj.GenerateResource.cache
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.vbproj.CoreCompileInputs.cache
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.exe
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.xml
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.pdb
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.exe.config
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.exe
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.pdb
+C:\Users\Xpertech\Desktop\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.xml
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.exe.config
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.exe
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.pdb
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\bin\Debug\SalaryComputation.xml
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.Form1.resources
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.Resources.resources
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.exe
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.xml
+C:\Users\Talavera\Desktop\Mark Talavera 2A\SalaryComputation\SalaryComputation\obj\Debug\SalaryComputation.pdb

@@ -1,0 +1,82 @@
+package loginInvents;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.*;
+
+public class trys extends JFrame {
+		 
+			JButton btn =new JButton();
+			JTextField txt =new JTextField();
+			
+		trys(){
+			this.setSize(400,400);
+			this.setResizable(false);
+			
+			
+			txt.setBounds(100,100,50,50);
+			btn.setBounds(100,200,50,50);
+			btn.setText("btn");
+			btn.addActionListener(new ActionListener() {
+
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					// TODO Auto-generated method stub
+					txt.getText();
+					 SwingUtilities.invokeLater(() -> {
+				            // Create a JDialog
+				            JDialog dialog = new JDialog();
+				            dialog.setTitle("Receipt");
+				            dialog.setSize(300, 200);
+				            dialog.setLocationRelativeTo(null);
+				           
+				            // Create a JTextArea
+				            JTextArea receiptTextArea = new JTextArea();
+				            receiptTextArea.setEditable(false);
+
+				            // Create a JScrollPane with vertical scrollbar
+				            JScrollPane scrollPane = new JScrollPane(receiptTextArea);
+				            scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+
+				            // Add the JScrollPane to the JDialog's content pane
+				            dialog.getContentPane().add(scrollPane);
+
+				            // Set the receipt content
+				            StringBuilder receiptContent = new StringBuilder();
+				            receiptContent.append(txt.getText());
+				            receiptContent.append(txt.getText());
+				            receiptContent.append(txt.getText());
+				            receiptContent.append(txt.getText());
+				            receiptContent.append(txt.getText());
+				            receiptContent.append(txt.getText());
+				            receiptContent.append(txt.getText());
+				            receiptContent.append(txt.getText());
+				            receiptContent.append(txt.getText()+"\n");
+				            receiptContent.append("Item 10: $55\n");
+
+				            // Set the receipt content in the JTextArea
+				            receiptTextArea.setText(receiptContent.toString());
+
+				            // Make the dialog visible
+				            dialog.setVisible(true);
+				        });
+				}
+				
+			});
+		
+			
+			
+			
+			
+			
+			
+			
+			
+			this.add(btn);
+			this.add(txt);
+			this.setVisible(true);
+			this.setLocationRelativeTo(null);
+			this.setLayout(null);
+		}
+}

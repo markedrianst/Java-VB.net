@@ -1,0 +1,62 @@
+package inventory;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.SwingUtilities;
+public class Dash extends JFrame implements ActionListener {
+	
+	private JButton button;
+    private JLabel bg;
+
+    public Dash() {
+        this.setSize(400, 270);
+        this.setTitle("Login");
+        this.setResizable(false);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.setLocationRelativeTo(null);
+
+        // Create an ImageIcon for the button
+        ImageIcon imageIcon = new ImageIcon("inv3.png");
+        Image image = imageIcon.getImage().getScaledInstance(100, 100, Image.SCALE_SMOOTH);
+        ImageIcon scaledImageIcon = new ImageIcon(image);
+
+        // Create the button with the scaled image icon
+        button = new JButton(scaledImageIcon);
+        button.addActionListener(this);
+        button.setFocusable(false);
+        button.setBounds(140, 120, 100, 100);
+        button.setOpaque(false);
+        button.setBorder(null);
+        button.setBackground(Color.white);
+        this.add(button);
+
+        // Create an ImageIcon for the background label
+        ImageIcon bgImageIcon = new ImageIcon("background.png");
+
+        // Create the background label with the original image icon
+        bg = new JLabel(bgImageIcon);
+        bg.setBounds(0, 0, 400, 270);
+        this.add(bg);
+
+        this.setLayout(null);
+        this.setVisible(true);
+    }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        if (e.getSource() == button) {
+       
+            new inv();
+        }
+    }
+}
+
+//    public static void main(String[] args) {
+//        SwingUtilities.invokeLater(() -> new Dash());
+//    }
+//}

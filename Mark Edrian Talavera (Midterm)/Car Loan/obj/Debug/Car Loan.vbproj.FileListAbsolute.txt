@@ -1,0 +1,13 @@
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\bin\Debug\Car Loan.exe.config
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\bin\Debug\Car Loan.exe
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\bin\Debug\Car Loan.pdb
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\bin\Debug\Car Loan.xml
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\obj\Debug\Car Loan.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\obj\Debug\Car_Loan.Form1.resources
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\obj\Debug\Car_Loan.Form2.resources
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\obj\Debug\Car_Loan.Resources.resources
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\obj\Debug\Car Loan.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\obj\Debug\Car Loan.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\obj\Debug\Car Loan.exe
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\obj\Debug\Car Loan.xml
+C:\Users\Talavera\Desktop\Midterm Exam\Car Loan\Car Loan\obj\Debug\Car Loan.pdb

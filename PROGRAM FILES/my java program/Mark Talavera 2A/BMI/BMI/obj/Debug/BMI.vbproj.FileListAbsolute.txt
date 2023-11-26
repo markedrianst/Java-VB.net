@@ -1,0 +1,12 @@
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\bin\Debug\BMI.exe.config
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\bin\Debug\BMI.exe
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\bin\Debug\BMI.pdb
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\bin\Debug\BMI.xml
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\obj\Debug\BMI.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\obj\Debug\BMI.Form1.resources
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\obj\Debug\BMI.Resources.resources
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\obj\Debug\BMI.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\obj\Debug\BMI.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\obj\Debug\BMI.exe
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\obj\Debug\BMI.xml
+C:\Users\Talavera\Desktop\Mark Talavera 2A\BMI\BMI\obj\Debug\BMI.pdb

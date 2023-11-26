@@ -1,0 +1,102 @@
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.LoadingScreen.resources
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Resources.resources
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.exe.config
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.exe
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.pdb
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.xml
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.exe
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.xml
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.pdb
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Login.resources
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.PickGame.resources
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.CashIn.resources
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.CashOut.resources
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.SlotMachine.resources
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Lucky9.resources
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.TossCoin.resources
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Jack_Poy.resources
+C:\Users\Talavera\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.JackAndPoy.resources
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.exe.config
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.exe
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.pdb
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.xml
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.AssemblyReference.cache
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.SuggestedBindingRedirects.cache
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.CashIn.resources
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.CashOut.resources
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.JackAndPoy.resources
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.LoadingScreen.resources
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Login.resources
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Lucky9.resources
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Resources.resources
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.PickGame.resources
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.SlotMachine.resources
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.TossCoin.resources
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.GenerateResource.cache
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.CoreCompileInputs.cache
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.exe
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.xml
+C:\Users\CL1 PC.CL1PC26\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.pdb
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.exe.config
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.exe
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.pdb
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.xml
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.CashIn.resources
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.CashOut.resources
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.JackAndPoy.resources
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.LoadingScreen.resources
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Login.resources
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Lucky9.resources
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Resources.resources
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.PickGame.resources
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.SlotMachine.resources
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.TossCoin.resources
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.exe
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.xml
+C:\Users\Talavera\Desktop\New folder\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.pdb
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.exe.config
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.exe
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.pdb
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.xml
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.AssemblyReference.cache
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.CashIn.resources
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.CashOut.resources
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.JackAndPoy.resources
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.LoadingScreen.resources
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Login.resources
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Lucky9.resources
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Resources.resources
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.PickGame.resources
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.SlotMachine.resources
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.TossCoin.resources
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.GenerateResource.cache
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.CoreCompileInputs.cache
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.exe
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.xml
+C:\Users\Xpertech\Desktop\Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.pdb
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.exe.config
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.exe
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.pdb
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\bin\Debug\CasinoGame.xml
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.AssemblyReference.cache
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.CashIn.resources
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.CashOut.resources
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.JackAndPoy.resources
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.LoadingScreen.resources
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Login.resources
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Lucky9.resources
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.Resources.resources
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.PickGame.resources
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.TossCoin.resources
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.GenerateResource.cache
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.vbproj.CoreCompileInputs.cache
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.exe
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.xml
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.pdb
+C:\Users\Talavera\Desktop\Mark Edrian Talavera-Midterm Activities\CasinoGame\CasinoGame\obj\Debug\CasinoGame.SlotsMachine.resources

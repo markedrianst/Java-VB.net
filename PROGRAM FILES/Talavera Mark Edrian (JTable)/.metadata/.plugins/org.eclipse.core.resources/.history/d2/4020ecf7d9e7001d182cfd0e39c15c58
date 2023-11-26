@@ -1,0 +1,28 @@
+package InventoryActivity;
+import java.awt.GridLayout;
+
+import javax.swing.*;
+
+
+
+	public class ButtonArrayExample {
+	   public static void main(String[] args) {
+	      int rows = 3;
+	      int cols = 3;
+	      int gap =10;
+	      JFrame frame = new JFrame("Button Array Example");
+	      JPanel panel = new JPanel();
+	      panel.setLayout(new GridLayout(rows, cols));
+	      
+	      for(int i=0; i<rows*cols; i++) {
+	         JButton button = new JButton("Button " + (i+1));
+	         button.setBounds(400,400,200,200);
+	         panel.add(button,gap,gap,gap);
+	      }
+	      
+	      frame.getContentPane().add(panel);
+	      frame.pack();
+	      frame.setVisible(true);
+	   }
+	}
+

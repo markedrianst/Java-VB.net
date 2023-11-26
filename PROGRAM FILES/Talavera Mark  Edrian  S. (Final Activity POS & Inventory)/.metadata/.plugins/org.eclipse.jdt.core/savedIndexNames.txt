@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Talavera\Desktop\Talavera Mark  Edrian  S. (Final Activity POS & Inventory)\.metadata\.plugins\org.eclipse.jdt.core
+3914500984.index
+1124045602.index
+1865797976.index

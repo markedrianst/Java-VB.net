@@ -1,0 +1,50 @@
+package loginInvents;
+import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class DialogTableConnectionExample {
+    private JTable table;
+    private DefaultTableModel tableModel;
+
+    public DialogTableConnectionExample() {
+        // Create the table model
+        tableModel = new DefaultTableModel();
+
+        // Create the table
+        table = new JTable(tableModel);
+
+        // Create the Add Row button
+        JButton addButton = new JButton("Add Row");
+        addButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Add a row to the table
+                tableModel.addRow(new Object[]{"New Row", tableModel.getRowCount() + 1});
+            }
+        });
+
+        // Create the dialog
+        JDialog dialog = new JDialog();
+        dialog.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
+        dialog.setTitle("Dialog Table Connection Example");
+        dialog.setSize(400, 300);
+        dialog.setLayout(new BorderLayout());
+
+        // Add the table and button to the dialog
+        dialog.add(new JScrollPane(table), BorderLayout.CENTER);
+        dialog.add(addButton, BorderLayout.SOUTH);
+
+        // Show the dialog
+        dialog.setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                new DialogTableConnectionExample();
+            }
+        });
+    }
+}

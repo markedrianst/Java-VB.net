@@ -1,0 +1,489 @@
+package loginInvents;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.geom.RoundRectangle2D;
+import java.text.DateFormatSymbols;
+import java.text.SimpleDateFormat;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Vector;
+
+import javax.swing.*;
+import javax.swing.border.LineBorder;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumnModel;
+import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
+
+public class eyy extends JFrame{
+	
+	public void updateTotal() {
+	    double TotalAdd = 0, Discount = 0;
+	    double DicP = 0.0;
+	    for (int i = 0; i < Table.getRowCount(); i++) {
+	        double Add = Double.parseDouble((String) Table.getValueAt(i, 5));
+	        TotalAdd += Add;
+	  	ImageIcon exit = new ImageIcon(new ImageIcon("EXIT.png").getImage().getScaledInstance(40, 40, Image.SCALE_SMOOTH));
+	ImageIcon EXIT2 = new ImageIcon(new ImageIcon("EXIT.png").getImage().getScaledInstance(45, 45, Image.SCALE_SMOOTH));
+	ImageIcon prof = new ImageIcon(new ImageIcon("PROFILE.png").getImage().getScaledInstance(40, 40, Image.SCALE_SMOOTH));
+	Toolkit ToolK = getToolkit();
+	Dimension Size = ToolK.getScreenSize();
+	String[] Row = new String [] {
+		"Item Code",
+		"Item Name",
+		"Size",
+		"Price",
+		"Quantity",
+		"Total"
+	};
+
+	 
+	
+	public eyy(){
+		setSize(1000, 700);
+		
+		getContentPane().setBackground(Color.decode("#5b5959"));
+		setResizable(false);
+		setTitle("Point-Of-Sale");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		JLabel ttlt = new JLabel("TOTAL:");
+		ttlt.setFont(new Font("Times new ROman", Font.BOLD, 30));
+		ttlt.setForeground(Color.white);
+		ttlt.setHorizontalAlignment(SwingConstants.CENTER);
+		ttlt.setOpaque(false);
+		ttlt.setBackground(null);
+		ttlt.setBounds(700, 450, 260, 53);
+
+		
+		JLabel Header4 = new JLabel();
+		Header4.setOpaque(true);
+		Header4.setBackground(Color.decode("#5b5959"));
+		Header4.setBounds(0, 0, 570, 53);
+		
+		JLabel Invoice = new JLabel("Invoice number: ");
+		Invoice.setFont(new Font("Helvetica", Font.PLAIN, 18));
+		Invoice.setForeground(Color.white);
+		Invoice.setOpaque(false);
+		Invoice.setBackground(null);
+		Invoice.setBounds(750, 80, 270, 53);
+		
+	
+		
+		JLabel Container4 = new JLabel();
+		Container4.setOpaque(true);
+		Container4.setBackground(Color.decode("#5b5959"));
+		Container4.setBounds(5, 58, 260, 100);
+		
+	
+		
+	
+		UIManager.put("ToolTip.background", Color.white);
+		UIManager.put("ToolTip.foreground", Color.black);
+		UIManager.put("ToolTip.border", BorderFactory.createLineBorder(Color.black, 1));
+		UIManager.put("ToolTip.font", new Font("Helvetica", Font.BOLD, 14));
+	    int initialDelay = ToolTipManager.sharedInstance().getInitialDelay();
+	    ToolTipManager.sharedInstance().setInitialDelay(10);
+			  
+		EXIT = new JButton();
+		EXIT.setIcon(exit);
+		EXIT.setBackground(null);
+		EXIT.setOpaque(false);
+		EXIT.setBounds(930, 5, 45, 45);
+		EXIT.setToolTipText("EXIT");
+	
+		EXIT.setFocusable(false);
+		EXIT.setBorder(null);
+		EXIT.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				int Conf = JOptionPane.showConfirmDialog(null, "Go back home?", "Go back?", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
+				if (Conf == JOptionPane.YES_OPTION) {
+					index Main = new index();
+					Main.Home_Design();
+					dispose();
+				}
+			}			
+		});
+		EXIT.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+            	EXIT.setIcon(EXIT2);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+            	EXIT.setIcon(exit);
+            }
+		});
+
+		JLabel QNTY = new JLabel("QUANTITY: ");
+		QNTY.setBounds(15, 60, 200, 30);
+		QNTY.setFont(new Font("calibri", Font.BOLD, 16));
+		QNTY.setForeground(Color.white);
+		
+		QuantiIn = new JTextField();
+		QuantiIn.setBounds(110, 60, 200, 32);
+		QuantiIn.setFont(new Font("calibri", Font.BOLD, 16));
+		QuantiIn.setForeground(Color.white);
+		QuantiIn.setOpaque(false);
+		QuantiIn.setBackground(null);
+		QuantiIn.setCursor(Cursor.getPredefinedCursor(Cursor.TEXT_CURSOR));
+		QuantiIn.setCaretColor(Color.white);
+		QuantiIn.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, Color.white));
+		
+		Search = new JButton();
+		Search.setIcon(srch);
+		Search.setBounds(320, 52, 50, 50);
+		Search.setOpaque(false);
+		Search.setBackground(null);
+		Search.setFocusable(false);
+		Search.setBorder(null);
+		Search.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+		Search.setToolTipText("Search Item");
+		Search.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+            	Search.setIcon(srchh);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+            	Search.setIcon(srch);
+            }
+		});
+		
+		inventory = new table(this);
+        inventory.InvTable_Design();
+        inventory.setVisible(false);
+        
+        Search.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+            	
+            	if(Double.parseDouble(ttl.getText()) == 0.00) {
+            		discount.RadButt[0].setSelected(true);
+            	}
+            	
+            	if(QuantiIn.getText().isEmpty()) {
+            	    JOptionPane.showMessageDialog(null, "Input a quantity first", "No quantity inputted", JOptionPane.WARNING_MESSAGE);
+            	} else if (QuantiIn.getText().matches("^(0|[1-9]\\d*)$")) {
+            	    inventory.setVisible(true);
+            	    setEnabled(false);
+            	} else {
+            	    JOptionPane.showMessageDialog(null, "You can only use numbers equal or more than 0", "Invalid Quantity", JOptionPane.WARNING_MESSAGE);
+            	}
+            }
+        });
+		
+		JLabel Icon = new JLabel();
+		Icon.setIcon(prof);
+		Icon.setBounds(15, 5, 45, 45);
+		
+		
+
+		
+		JLabel POS = new JLabel("POINT-OF-SALE");
+		POS.setBounds(70, 5, 200, 45);
+		POS.setFont(new Font("TIMES NEW ROMAN", Font.BOLD, 24));
+		POS.setForeground(Color.white);
+	
+		
+		JLabel Date = new JLabel();
+		Date.setBounds(575, 215, 500, 45);
+		Date.setFont(new Font("TIMES NEW ROMAN", Font.BOLD, 18));
+		Date.setForeground(Color.white);
+		Date.setHorizontalAlignment(SwingConstants.CENTER);
+	
+		JLabel Time = new JLabel();
+        Time.setBounds(750, 200, 500, 45);
+        Time.setFont(new Font("calibri", Font.BOLD, 35));
+        Time.setForeground(Color.white);
+        
+        Timer timer = new Timer(1000, e -> {
+            Calendar calendar = Calendar.getInstance();
+            Date now = calendar.getTime();
+
+            SimpleDateFormat timeFormat = new SimpleDateFormat("hh:mm:ss a");
+            timeFormat.setDateFormatSymbols(new DateFormatSymbols(Locale.US) {
+                @Override
+                public String[] getAmPmStrings() {
+                    return new String[] {"AM", "PM"};
+                }
+            });
+            String time = timeFormat.format(now);
+            Time.setText(time);
+
+            SimpleDateFormat dateFormat = new SimpleDateFormat("EEE, MMM dd, yyyy");
+            dateFormat.setDateFormatSymbols(new DateFormatSymbols(Locale.US) {
+                @Override
+                public String[] getMonths() {
+                    return new String[] {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+                }
+
+                @Override
+                public String[] getShortWeekdays() {
+                    return new String[] {"", "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
+                }
+            });
+            String date = dateFormat.format(now);
+            Date.setText(date);
+        });
+        timer.start();
+        
+     
+        
+		JLabel Container = new JLabel();
+		Container.setOpaque(true);
+		Container.setBackground(Color.decode("#5b5959"));
+		Container.setBounds(25, 75, 740, 520);
+
+		JLabel Container2 = new JLabel();
+		Container2.setOpaque(true);
+		Container2.setBackground(Color.decode("#5b5959"));
+		Container2.setBounds(590, 75, 270, 165);
+		
+		JLabel Container3 = new JLabel();
+		Container3.setOpaque(true);
+		Container3.setBackground(Color.decode("#5b5959"));
+		Container3.setBounds(20, 550, 1070, 145);
+		
+		int y = 38;
+		for (int i = 0; i < btn.length; i++) {
+			int index = i;
+			btn[i] = new JButton(ButtText[i]);
+			btn[i].setBounds(y, 35, 200, 50);
+			btn[i].setFocusable(false);
+			btn[i].setBorder(null);
+			btn[i].setBackground(Color.decode("#adacac"));
+			btn[i].setFont(new Font("Helvetica", Font.BOLD, 20));
+			btn[i].setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
+			if (index < 2) {
+				btn[i].addMouseListener(new java.awt.event.MouseAdapter() {
+		            public void mouseEntered(java.awt.event.MouseEvent evt) {
+		            	btn[index].setBackground(Color.decode("#adacac"));
+		            	btn[index].setFont(new Font("Helvetica", Font.BOLD, 20));
+		            }
+		            public void mouseExited(java.awt.event.MouseEvent evt) {
+		            	btn[index].setBackground(Color.decode("#adacac"));
+		            	btn[index].setFont(new Font("Helvetica", Font.BOLD, 20));
+		            }
+				});
+			} else if (index == 2) {
+				btn[i].addMouseListener(new java.awt.event.MouseAdapter() {
+		            public void mouseEntered(java.awt.event.MouseEvent evt) {
+		            	btn[index].setBackground(Color.decode("#5500fe"));
+		            	btn[index].setFont(new Font("calibri", Font.BOLD, 20));
+		            	btn[index].setForeground(Color.white);
+		            }
+		            public void mouseExited(java.awt.event.MouseEvent evt) {
+		            	btn[index].setBackground(Color.decode("#adacac"));
+		            	btn[index].setFont(new Font("calibri", Font.BOLD, 20));
+		            	btn[index].setForeground(Color.black);
+		            }
+				});
+			} else {
+				btn[i].addMouseListener(new java.awt.event.MouseAdapter() {
+		            public void mouseEntered(java.awt.event.MouseEvent evt) {
+		            	btn[index].setBackground(Color.decode("#ff0000"));
+		            	btn[index].setFont(new Font("calibri", Font.BOLD, 20));
+		            	btn[index].setForeground(Color.white);
+		            }
+		            public void mouseExited(java.awt.event.MouseEvent evt) {
+		            	btn[index].setBackground(Color.decode("#adacac"));
+		            	btn[index].setFont(new Font("calibri", Font.BOLD, 20));
+		            	btn[index].setForeground(Color.black);
+		            }
+				});
+			}
+			
+			y += 220;
+			Container3.add(btn[i]);
+		}
+		
+		btn[0].addActionListener(new ActionListener() {
+	            @Override
+	            public void actionPerformed(ActionEvent e) {
+	                // Get the selected row in the POS table
+	                int selectedRow = Table.getSelectedRow();
+	                if (selectedRow >= 0) {
+		            	int Conf = JOptionPane.showConfirmDialog(null, "Are you sure you want to delete " + Table.getValueAt(selectedRow, 1), "Delete Item", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
+		            	if (Conf == JOptionPane.YES_OPTION) {
+		            		
+		                    String ID = (String) Table.getValueAt(selectedRow, 0);	                  
+		                    DefaultTableModel invModel = (DefaultTableModel) inventory.Table.getModel();
+		                    int invRowIndex = -1;
+		                    for (int i = 0; i < invModel.getRowCount(); i++) {
+		                        if (invModel.getValueAt(i, 0).equals(ID)) {
+		                            invRowIndex = i;
+		                            break;
+		                        }
+		                    }
+	                        
+		                    if (invRowIndex >= 0) {
+			                    int deductedStock = Integer.parseInt((String) Table.getValueAt(selectedRow, 4));
+			                    int currentStock = Integer.parseInt(invModel.getValueAt(invRowIndex, 5).toString());
+		                        invModel.setValueAt(Integer.toString(currentStock + deductedStock), invRowIndex, 5);
+		                        
+		                        if (Long.parseLong(invModel.getValueAt(invRowIndex, 5).toString()) > Long.parseLong(invModel.getValueAt(invRowIndex, 6).toString())) {
+		                            invModel.setValueAt("High Stock", invRowIndex, 7);
+		                        } else {
+		                            invModel.setValueAt("Low Stock", invRowIndex, 7);
+		                        }
+		                        
+		                    }
+		                    
+		               
+		                    DefaultTableModel posModel = (DefaultTableModel) Table.getModel();
+		                    posModel.removeRow(selectedRow);
+		            	}
+	                } else {
+	                	JOptionPane.showMessageDialog(null, "Choose an item first", "Choose Item", JOptionPane.WARNING_MESSAGE);
+	                }
+	                updateTotal();
+	            }
+	        });
+		 
+		 discount = new Disc(this);
+		 discount.Discount_Design();
+		 discount.setVisible(false);
+		 
+		 btn[1].addActionListener(new ActionListener() {
+	            @Override
+	            public void actionPerformed(ActionEvent e) {
+	            	if(Double.parseDouble(ttl.getText()) == 0.00) {
+	            		discount.RadButt[0].setSelected(true);
+	            	}
+	            	
+	            	discount.setVisible(true);
+            	    setEnabled(false);
+	            }
+	        });
+		 
+		 payment = new pay(this);
+		 payment.Payment_Design();
+		 payment.setVisible(false);
+		 
+		 btn[2].addActionListener(new ActionListener() {
+	            @Override
+	            public void actionPerformed(ActionEvent e) {
+	            	if(Double.parseDouble(ttl.getText()) == 0.00) {
+	            		discount.RadButt[0].setSelected(true);
+	            	}
+	            	
+	            	if (Table.getRowCount() > 0) {
+	            		payment.setVisible(true);
+		            	setEnabled(false);
+	            	} else {
+	            		JOptionPane.showMessageDialog(null, "Add an Item first", "No Items", JOptionPane.WARNING_MESSAGE);
+	            	}
+	            }
+	        });
+		 
+		 btn[3].addActionListener(new ActionListener() {
+	            @Override
+	            public void actionPerformed(ActionEvent e) {
+	            	int Conf = JOptionPane.showConfirmDialog(null, "Are you sure you want to cancel and clear the list?", "Cancel Order", JOptionPane.YES_NO_OPTION, JOptionPane.WARNING_MESSAGE);
+					if (Conf == JOptionPane.YES_OPTION) {
+		            	// Loop through all rows in POS table
+		            	for (int i = 0; i < posModel.getRowCount(); i++) {
+		            	    // Get the ID of the item in the selected row
+		            	    String ID = (String) posModel.getValueAt(i, 0);
+		            	    
+		            	    // Add back the deducted stock to the inventory table
+		            	    DefaultTableModel invModel = (DefaultTableModel) inventory.Table.getModel();
+		            	    int invRowIndex = -1;
+		            	    for (int j = 0; j < invModel.getRowCount(); j++) {
+		            	        if (invModel.getValueAt(j, 0).equals(ID)) {
+		            	            invRowIndex = j;
+		            	            break;
+		            	        }
+		            	    }
+	
+		            	    if (invRowIndex >= 0) {
+		            	        int deductedStock = Integer.parseInt((String) posModel.getValueAt(i, 4));
+		            	        int currentStock = Integer.parseInt(invModel.getValueAt(invRowIndex, 5).toString());
+		            	        invModel.setValueAt(Integer.toString(currentStock + deductedStock), invRowIndex, 5);
+	
+		            	        if (Long.parseLong(invModel.getValueAt(invRowIndex, 5).toString()) > Long.parseLong(invModel.getValueAt(invRowIndex, 6).toString())) {
+		            	            invModel.setValueAt("High Stock", invRowIndex, 7);
+		            	        } else {
+		            	            invModel.setValueAt("Low Stock", invRowIndex, 7);
+		            	        }
+	
+		            	    }
+	
+		            	}
+	
+		            	// Remove all rows from POS table
+		            	posModel.setRowCount(0);
+		            	ttl.setText("0.00");
+		            	discount.RadButt[0].setSelected(true);
+					}
+	            }
+	        });
+        
+		Table.getTableHeader().setEnabled(false); //DISABLES HEADER
+		
+		//CENTER DATA
+		DefaultTableCellRenderer Center = new DefaultTableCellRenderer(); 
+		Center.setHorizontalAlignment(JLabel.CENTER); 
+		
+		for (int i = 0; i < Row.length; i++) {
+		    Table.getColumnModel().getColumn(i).setCellRenderer(Center);
+		}
+		
+	
+
+		Table.setRowHeight(22); //CHANGE TO CHANGE HOW THICK CELLS ARE
+		
+		//CHANGE HOW LONG THEY ARE
+		TableColumnModel Colm = Table.getColumnModel();
+		int[] Wid = {
+			70, 150, 80, 90, 70, 100 //ONLY EDIT THIS 
+		};
+		
+		for (int i = 0; i < Wid.length; i++) {
+			Colm.getColumn(i).setPreferredWidth(Wid[i]);
+		}
+		
+		//OTHERS
+		Panel.setBounds(5, 100, 729, 453);
+		Panel.add(Scroll);
+		Table.setRowSorter(sort);
+		
+	add(Panel);
+	
+	add(QNTY);
+	add(QuantiIn);
+	add(Search);
+		
+	
+
+	add(ttlt);
+add(ttl);
+		
+	add(Container3);
+	Container3.add(Header4);
+	add(Invoice);
+	add(IVN);	
+	add(Time);
+	add(Date);
+	add(POS);
+	add(Icon);
+	add(EXIT);
+		
+		
+		setLayout(null);
+		setVisible(true);
+		
+	}
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Car Loan", "Car Loan\Car Loan.vbproj", "{EFB30653-08E0-4693-92F5-D28E87C718F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFB30653-08E0-4693-92F5-D28E87C718F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB30653-08E0-4693-92F5-D28E87C718F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB30653-08E0-4693-92F5-D28E87C718F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB30653-08E0-4693-92F5-D28E87C718F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2C7DD30-4F76-4BA2-9655-199D2B4017FC}
+	EndGlobalSection
+EndGlobal

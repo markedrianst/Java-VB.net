@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Talavera\Desktop\Talavera Mark Edrian(Final Activity)\.metadata\.plugins\org.eclipse.jdt.core
+352837464.index
+1865797976.index
+3914500984.index

@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC48D356-15E6-47DA-AB43-39B489F868A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CasinoGame.My.MyApplication</StartupObject>
+    <RootNamespace>CasinoGame</RootNamespace>
+    <AssemblyName>CasinoGame</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CasinoGame.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CasinoGame.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>download-removebg-preview-_2_.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CashIn.Designer.vb">
+      <DependentUpon>CashIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CashIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashOut.Designer.vb">
+      <DependentUpon>CashOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CashOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JackAndPoy.Designer.vb">
+      <DependentUpon>JackAndPoy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="JackAndPoy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadingScreen.Designer.vb">
+      <DependentUpon>LoadingScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lucky9.Designer.vb">
+      <DependentUpon>Lucky9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Lucky9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PickGame.Designer.vb">
+      <DependentUpon>PickGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PickGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SlotsMachine.Designer.vb">
+      <DependentUpon>SlotsMachine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SlotsMachine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TossCoin.Designer.vb">
+      <DependentUpon>TossCoin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TossCoin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CashIn.resx">
+      <DependentUpon>CashIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashOut.resx">
+      <DependentUpon>CashOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JackAndPoy.resx">
+      <DependentUpon>JackAndPoy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadingScreen.resx">
+      <DependentUpon>LoadingScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lucky9.resx">
+      <DependentUpon>Lucky9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PickGame.resx">
+      <DependentUpon>PickGame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SlotsMachine.resx">
+      <DependentUpon>SlotsMachine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TossCoin.resx">
+      <DependentUpon>TossCoin.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BgDashBoard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnenter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cashin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CASHINBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cashout bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cashout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confirm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 5 h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RectangleHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loading screen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Load.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GamesBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-unscreen.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slot_Machine %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlotsBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Slot_machineBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SlotsmachineBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spin1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spin2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-removebg-preview-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TossCoin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JacknPoy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\jackpoy\jack0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\jackpoy\jack1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\jackpoy\jack2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack2-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack1-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jack0-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giphy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lucky 9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back cards.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jackpot.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="download-removebg-preview-_2_.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

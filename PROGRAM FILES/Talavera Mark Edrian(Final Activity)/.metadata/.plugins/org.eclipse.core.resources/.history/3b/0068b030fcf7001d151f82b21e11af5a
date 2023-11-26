@@ -1,0 +1,355 @@
+package loginInvents;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Vector;
+
+import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
+import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumnModel;
+import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
+public class frame extends JFrame {
+	
+	ImageIcon img = new ImageIcon(new ImageIcon("inv7.jpg").getImage().getScaledInstance(1000, 700, Image.SCALE_SMOOTH));
+	JLabel background = new JLabel("", img, JLabel.CENTER);
+	JPanel panel = new JPanel();
+	JPanel title = new JPanel();
+	JPanel dt = new JPanel();
+	JPanel qty = new JPanel();
+	JPanel inc = new JPanel();
+	JPanel tbl = new JPanel();
+	JPanel ttl = new JPanel();
+	JPanel itm = new JPanel();
+	JDialog dialog = new JDialog();
+	JButton srch = new JButton("Search");
+	JPanel panel2 = new JPanel(new BorderLayout());
+	JButton aitem = new JButton("add item:");
+	JTextField qtyfield = new JTextField();
+	JTextField amnt = new JTextField();
+	//this will create a new Panel with BorderLayout
+		JPanel tblPanel = new JPanel(new BorderLayout());
+		JPanel tblPanel1 = new JPanel(new BorderLayout());
+		JButton rmv = new JButton();
+		String [] column1 = new String []{
+				"Item Code","Item Name",
+				"Price",
+				"Size", "Quantity",
+				"Total" ,
+				
+				};
+String [][] row1 = new String [][] {
+		};
+		 
+		String [] column = new String []{
+				"Item Code","Item Name",
+				"Item Description",
+				"Price",
+				"Size", "Stocks",
+				"Re-Order Point" ,
+				"Remarks"
+				};
+		
+		//this will fill the info of the column of the table
+		String [][] row = new String [][] {
+			{"00001", "Palmolive", "Shampoo","7.00", "10 ml","50","30","High Stock"},
+			{"00002", "Creamsilk", "Shampoo","7.00", "10 ml","50","30","High Stock"},
+			{"00003", "Sanicare", "Cleaning Wipes","50.00", "50 sheets","60","30","High Stock"},
+			{"00004", "Datu Puti", "Soy Sauce","20.00", "200 ml","40","30","High Stock"},
+			{"00005", "Colgate", "Toothbrush","20.00", "18 grams","50","30","High Stock"},
+			{"00006", "Colgate", "Toothpaste","80.00", "150 grams","50","30","High Stock"},
+			{"00007", "Joy", "Dishwashing Liquid","12.00", "18.5 ml","50","30","High Stock"},
+			{"00008", "Century", "Canned Goods","78.2", "5.3 oz","50","30","High Stock"},
+			{"00009", "Shyflakes", "Biscuit","55.6", "22 grams","50","30","High Stock"},
+			{"00010", "Kopiko", "3 in 1","12.00", "7 grams","40","30","High Stock"},
+			
+		};
+		
+		
+		DefaultTableModel model = new DefaultTableModel(row, column);
+		
+		JTable table = new JTable(model);
+		
+		JScrollPane scroll = new JScrollPane(table);
+		TableRowSorter<TableModel> sort = new TableRowSorter<>(table.getModel());
+		JTextField txtSearch = new JTextField();
+		JLabel item = new JLabel("Search Item:");
+		Vector <String> r = new Vector <String> ();
+		//another table
+		
+		DefaultTableModel model1 = new DefaultTableModel(row1, column1);
+		JTable table1 = new JTable(model1);
+		JScrollPane scroll1 = new JScrollPane(table1);
+		TableRowSorter<TableModel> sort1 = new TableRowSorter<>(table1.getModel());
+		Vector <String> r1 = new Vector <String> ();
+		double totalAmount = 0.0;
+		 double newTotalAmount = 0.0;
+		frame(){
+			this.setSize(1000, 700);
+	        this.setTitle("Login");
+	        this.setResizable(false);
+	        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	        this.setLocationRelativeTo(null);
+	        
+	        
+	        panel.setBounds(0, 0, 1000, 680);
+	        panel.setBackground(new Color(0,0,0,80));
+	        panel.setForeground(Color.BLACK);
+	        
+	        title.setBounds(0, 0, 750, 120);
+	        title.setBackground(new Color(255,255,255,100));
+	        title.setForeground(Color.white);
+	        title.setBorder(BorderFactory.createLineBorder(Color.black, 1));
+	        
+	        dt.setBounds(0, 130, 750, 100);
+	        dt.setBackground(new Color(255,255,255,100));
+	        dt.setForeground(Color.white);
+	        dt.setBorder(BorderFactory.createLineBorder(Color.black, 1));
+	        
+	        qty.setBounds(0, 230, 550, 100);
+	        qty.setBackground(new Color(255,255,255,100));
+	        qty.setForeground(Color.white);
+	        qty.setBorder(BorderFactory.createLineBorder(Color.black, 1));
+	        
+	        inc.setBounds(550, 230, 200, 100);
+	        inc.setBackground(new Color(255,255,255,100));
+	        inc.setForeground(Color.white);
+	        inc.setBorder(BorderFactory.createLineBorder(Color.black, 1));
+	        
+	        tbl.setBounds(0, 340, 750, 320);
+	        tbl.setBackground(new Color(255,255,255,100));
+	        tbl.setForeground(Color.white);
+	        tbl.setBorder(BorderFactory.createLineBorder(Color.black, 1));
+	        
+	        ttl.setBounds(750, 100, 234, 170);
+	        ttl.setBackground(new Color(255,255,255,100));
+	        ttl.setForeground(Color.white);
+	        ttl.setBorder(BorderFactory.createLineBorder(Color.black, 1));
+	        
+	        itm.setBounds(750, 290, 234, 250);
+	        itm.setBackground(new Color(255,255,255,100));
+	        itm.setForeground(Color.white);
+	        itm.setBorder(BorderFactory.createLineBorder(Color.black, 1));
+
+
+
+	        background.setBounds(0, 0, 1000, 700);
+	        
+	   
+	      
+
+	        table.getTableHeader().setEnabled(false);
+	        table.setDefaultEditor(Object.class, null);
+	        
+	        table1.getTableHeader().setEnabled(false);
+	        table1.setDefaultEditor(Object.class, null);
+			
+		
+	
+			item.setBounds(350, 240, 150, 30);
+			item.setFont(new Font("Cambria", Font.PLAIN, 18));
+			
+			
+			table.setRowSorter(sort);
+			qtyfield.setBounds(40, 273, 130, 30);
+			amnt.setBounds(800, 200, 150, 50);
+			amnt.setFont(new Font("Times New Roman", Font.PLAIN, 18));
+			amnt.setEditable(false);
+			aitem.setBounds(100, 250, 150, 40);
+			aitem.setFocusable(false);
+		
+			
+			aitem.addActionListener(new ActionListener() {
+			    @Override
+			    public void actionPerformed(ActionEvent e) {
+			        int selectedRow = table.getSelectedRow();
+			        if (selectedRow != -1) {
+			            int numRowsToAdd = 3;
+			            int addedRows = 0;
+			            
+
+			            for (int row : table.getSelectedRows()) {
+			                String[] rowData = new String[table1.getColumnCount()]; 
+			                int rowDataIndex = 0;
+
+			               
+			                for (int i = 0; i < table.getColumnCount() - 1; i++) {
+			                    if (i != 2) { 
+			                        rowData[rowDataIndex] = table.getValueAt(row, i).toString();
+			                        rowDataIndex++;
+			                    }
+			                }
+
+			                int enteredQuantity = Integer.parseInt(qtyfield.getText());
+			                int currentStock = Integer.parseInt(rowData[5]);
+			                int updatedStock = currentStock - enteredQuantity;
+			                rowData[5] = String.valueOf(updatedStock);
+
+			                double price = Double.parseDouble(rowData[2]); 
+			                double total = price * enteredQuantity;
+
+			               
+			                rowData[5] = String.valueOf(total);
+			             
+			                rowData[rowData.length - 2] = qtyfield.getText();
+
+			               qtyfield.setText("");
+			                model1.addRow(rowData);
+			                addedRows++;
+			                totalAmount += total;
+			          
+			           
+			                if (addedRows == numRowsToAdd) {
+			                    break;
+			                }
+			            }
+			            
+
+			            // Update the total amount in the amnt text field
+			            amnt.setText(String.valueOf(totalAmount));
+			        }
+			 
+
+			        dialog.dispose();
+			    }
+			});
+			 rmv.setBounds(800, 400, 100, 50);
+		        rmv.setText("Delete");
+		        rmv.setBackground(Color.white);
+		        rmv.setFocusable(false);
+		        rmv.addActionListener(new ActionListener() {
+
+		        	@Override
+		        	public void actionPerformed(ActionEvent e) {
+		        	    if (e.getSource() == rmv) {
+		        	        int cancels = JOptionPane.showConfirmDialog(null, "Are you sure you want to delete this item?", "Delete", JOptionPane.YES_NO_OPTION);
+		        	        if (cancels == JOptionPane.YES_OPTION) {
+		        	            int selectedRowIndex = table1.getSelectedRow();
+		        	            if (selectedRowIndex != -1) {
+		        	                double deletedTotal = Double.parseDouble(table1.getValueAt(selectedRowIndex, 5).toString()); // Assuming the total column is at index 5
+		        	                model1.removeRow(selectedRowIndex);
+		        	                totalAmount -= deletedTotal;
+
+		        	                // Update the total amount in the amnt text field
+		        	                amnt.setText(String.valueOf(totalAmount));
+
+		        	                JOptionPane.showMessageDialog(null, "Item Successfully Deleted");
+		        	            }
+		        	        }
+		        	    }
+		        	
+					}});
+
+				    //	srch.setBounds(350, 273, 150, 30);
+				srch.setBackground(Color.white);
+				srch.setFont(new Font("Times New Roman", Font.PLAIN, 18));
+				srch.setFocusable(false);
+				srch.addActionListener(new ActionListener() {
+				    @Override
+				    public void actionPerformed(ActionEvent e) {
+				        // TODO Auto-generated method stub
+
+				        JLabel stem = new JLabel("Search Items:");
+				        stem.setBounds(20, 20, 150, 30);
+				        aitem.setBounds(700, 20, 150, 30);
+
+				        srch.addMouseListener(new MouseAdapter() {
+				        	@Override
+				        	public void mouseClicked(MouseEvent e) {
+				        	  
+				        	    
+				        	    dialog.dispose();
+				        	}
+				        });
+
+				        panel2.setBounds(40, 60, 1000, 300);
+				        panel2.add(scroll);
+				        panel2.setLayout(null);
+
+				        txtSearch.setBounds(100, 20, 450, 30);
+				        txtSearch.getDocument().addDocumentListener(new DocumentListener() {
+				            @Override
+				            public void insertUpdate(DocumentEvent e) {
+				                String str = txtSearch.getText();
+				                if (str.trim().length() == 0) {
+				                    sort.setRowFilter(null);
+				                } else {
+				                    // (?i) means case insensitive search
+				                    sort.setRowFilter(RowFilter.regexFilter("(?i)" + str));
+				                }
+				            }
+
+				            @Override
+				            public void removeUpdate(DocumentEvent e) {
+				                String str = txtSearch.getText();
+				                if (str.trim().length() == 0) {
+				                    sort.setRowFilter(null);
+				                } else {
+				                    sort.setRowFilter(RowFilter.regexFilter("(?i)" + str));
+				                }
+				            }
+
+				            @Override
+				            public void changedUpdate(DocumentEvent e) {
+				            }
+				        });
+				       
+						
+
+				        dialog.setContentPane(new JPanel(new BorderLayout()));
+				        dialog.setLayout(null);
+				        dialog.add(stem);
+				        dialog.add(panel2);
+				        dialog.add(txtSearch);
+				        dialog.add(aitem);
+
+				        dialog.pack();
+				        dialog.setSize(1000, 350);
+				        dialog.setLocationRelativeTo(null);
+				        dialog.setModalityType(Dialog.DEFAULT_MODALITY_TYPE);
+				        dialog.setVisible(true);
+				    }
+				
+				});
+			
+	
+	
+		tblPanel.setBounds(15, 350, 900, 200);
+			tblPanel.setBackground(Color.white);
+			tblPanel.add(scroll);
+			tblPanel.setVisible(false);
+			
+			tblPanel1.setBounds(15, 350,720, 300);
+			tblPanel1.setBackground(Color.white);
+			tblPanel1.add(scroll1);
+
+			
+			
+			
+			this.add(item);
+			this.add(rmv);
+			this.add(amnt);
+			this.add(srch);
+			this.add(qtyfield);
+			this.add(tblPanel);
+			this.add(tblPanel1);
+	        this.add(dt);
+	        this.add(tbl);
+	        this.add(itm);
+	        this.add(ttl);
+	        this.add(inc);
+	        this.add(qty);
+	        this.add(title);
+	        this.add(panel);
+	        this.add(panel2);       
+	        this.add(background);
+	        this.setLayout(null);
+	        this.setVisible(true);
+	        
+	        
+	}
+}
